@@ -1,9 +1,24 @@
-# Google-homepage
-Adding a hint of lemonade to the Google.
+# Google Homepage
+## Code Documentation
+###### languages used **html css & javascript**
 
-Skills acquired during this project:
 
-I was able to utilize the <iframe></iframe> and <div> tag to add photo at the top of the google homepage.
-  Using the JSFiddle.net playground to test out the <iframe> code was welcomed alternative to VScode and Linux-notepad.
-  I was able to apply the <frame> code on the Google Homepage source code, after the 1st <html> tag and before the start of the <head>.
-  
+
+##HTML → unique IDs
+- `id=”ABOUT”`  about google landing page
+- `id=”STORE”`  google store
+- `id=”GMAIL”`  email service for google
+- `id=”IMAGES”`  google images landing page
+- `id=”MENU”` icons of google services, click to reach the specific landing page
+- `id=”SIGN-IN”` sign in to account
+- `id=”SEARCHSEC”` search section of the google homepage(logo, bar, search buttons)
+- `id=”LOGO”` Google logo
+- `id=”SEARCH”` search box
+- `id=”GOOGLE-SEARCH-BTN”` main google search button with optimal results
+- `id=”DUMB-SEARCH”` waste of time search, possibly page 2, lol.
+- `id=”ADVERTISING”` AdSense landing page
+- `id=”BUSINESS”` Google Business products
+- `id=”HOW SEARCH WORKS”` learning google search and easy tips for fast & accurate results
+- `id=”PRIVACY”` privacy options when using google
+- `id=”TERMS”` terms of using google
+- `id=”SETTINGS”` settings id will have pop-up menu before bringing you to a landing page
