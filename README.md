@@ -4,7 +4,7 @@
 
 
 
-##HTML → unique IDs
+## HTML → unique IDs
 - `id=”ABOUT”`  about google landing page
 - `id=”STORE”`  google store
 - `id=”GMAIL”`  email service for google
