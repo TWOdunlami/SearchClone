@@ -7,7 +7,7 @@ html {
   display: grid;
   grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
   grid-template-rows: 50px;
-  grid-template-areas: "about store . gmail image menu sign-in";
+  grid-template-areas: "about store . gmail images menu sign-in";
 }
 
 a {
@@ -33,7 +33,7 @@ a {
   align-self: center;
   }
 #images {
-  grid-area: image;
+  grid-area: images;
   justify-self: center;
   align-self: center;
   }
