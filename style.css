@@ -3,6 +3,8 @@ html {
   min-height: 100%;
 }
 
+
+/* header section */
 #nav {
   display: grid;
   grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
@@ -48,6 +50,57 @@ a {
    align-self: center;
   }
   
-  #header {
-    justify-content: space-evenly;
-  }
+/* Center of Page */
+
+#searchsec {
+   min-height: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 250px 70px 70px 250px;
+   grid-template-areas: ". logo . " ". search ." ". flexbox ." ". google-text .";
+}
+
+#logo {
+   grid-area: logo;
+   justify-self: center;
+   align-self: end;
+}
+
+#search {
+   grid-area: search;
+   height: 30px;
+   align-self: center;
+}
+
+#flexbox {
+   display: flexbox;
+   grid-area: flexbox;
+   justify-self: center;
+   align-self: center;
+}
+
+#google-search-btn {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+}
+
+#dumb-search {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+}
+
+#google-text {
+   grid-area: google-text;
+   justify-self: center;
+}
+
+/* Footer section */
+#footer {
+   display: grid;
+   position: absolute;
+   left: 10;
+   bottom: 10;
+   width: 100%;
+   grid-template-columns: 100px 100px 1fr 100px 100px;
+   grid-template-areas: "advertising business searchfaq . privacy terms settings";
+}
