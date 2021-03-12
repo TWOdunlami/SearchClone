@@ -80,11 +80,21 @@ a {
 }
 
 #google-search-btn {
+   padding: 10px 15px 10px 15px;
+   margin: 5px;
+   color: 707070;
+   background-color: #E8E8E8;
+   border: 1px solid #E8E8E8;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 13px;
 }
 
 #dumb-search {
+   padding: 10px 15px 10px 15px;
+   margin: 5px;
+   color: 707070;
+   background-color: #E8E8E8;
+   border: 1px solid #E8E8E8;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 13px;
 }
