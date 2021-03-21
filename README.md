@@ -1,24 +1,17 @@
-# Google Homepage
-## Code Documentation
-###### languages used **html css & javascript**
+# Google Homepage Clone
+###### languages used: html & css
 
+## Google Home Page Clone
+ > Google homepage clone built for 1st assigned project for the The Odin Project curriculum The Foundations. please enjoy the simple Html and CSS styles used to make this page my very on. Applying the subtle changes made the project fun and light.
+   == Feedback is always welcomed! Happy Coding! 👩‍💻🗜️
+   ## 🗜️ Website Map 🗜
+     ==This website map is to guide the user through the different parts of the Google clone site. Feel free to click around. Continue down below to see where the links take you. 
+   > These header links[About, Store, and Images] brings the user to a new window to their respective google home pages. 
+   >  Header links [Menu icon and Sign In button] redirects the user to the google home page.
+   > Replaced the traditional "I'm Feeling Lucky" button with the Page2.htm file to direct user to a dummy search results page.
+   > Search box -> "Welcome to Static Google" is used a placeholder text to inform the user the website is not real.
+   > Google Search button is a static button.
+   > Easter egg, clicking the "Search Your ❤️ Away" link directs the user to the water.org website.
+   >  Footer section links[Advertising, Business, How Search Works, Privacy, Terms, and Settings] when selected by the user it redirects them to the Google home pages
+   > Footer background is a not the traditional soft grey color. HSL color in the pink family is being used.
 
-
-## HTML → unique IDs
-- `id=”ABOUT”`  about google landing page
-- `id=”STORE”`  google store
-- `id=”GMAIL”`  email service for google
-- `id=”IMAGES”`  google images landing page
-- `id=”MENU”` icons of google services, click to reach the specific landing page
-- `id=”SIGN-IN”` sign in to account
-- `id=”SEARCHSEC”` search section of the google homepage(logo, bar, search buttons)
-- `id=”LOGO”` Google logo
-- `id=”SEARCH”` search box
-- `id=”GOOGLE-SEARCH-BTN”` main google search button with optimal results
-- `id=”DUMB-SEARCH”` waste of time search, possibly page 2, lol.
-- `id=”ADVERTISING”` AdSense landing page
-- `id=”BUSINESS”` Google Business products
-- `id=”HOW SEARCH WORKS”` learning google search and easy tips for fast & accurate results
-- `id=”PRIVACY”` privacy options when using google
-- `id=”TERMS”` terms of using google
-- `id=”SETTINGS”` settings id will have pop-up menu before bringing you to a landing page
