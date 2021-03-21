@@ -1,128 +1,179 @@
 html {
-  height: 100%;
-  min-height: 100%;
-}
-
-
-/* header section */
-#nav {
-  display: grid;
-  grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
-  grid-template-rows: 50px;
-  grid-template-areas: "about store . gmail images menu sign-in";
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-}
-
-#about {
-  grid-area: about;
-  justify-self: center;
-  align-self: center;
-  }
-#store {
-  grid-area: store;
-  justify-self: center;
-  align-self: center;
-  }
-#gmail {
-  grid-area: gmail;
-  justify-self: center;
-  align-self: center;
-  }
-#images {
-  grid-area: images;
-  justify-self: center;
-  align-self: center;
-  }
-#menu {
-  grid-area: menu;
-  justify-self: center;
-  align-self: center;
-  }
-#sign-in {
-   grid-area: sign-in;
-   justify-self: center;
-   align-self: center;
-  }
-  
-/* Center of Page */
-
-#searchsec {
+   height: 100%;
    min-height: 100%;
+ }
+ 
+ 
+ /* header section */
+ #nav {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 250px 70px 70px 250px;
-   grid-template-areas: ". logo . " ". search ." ". flexbox ." ". google-text .";
-}
-
-#logo {
-   grid-area: logo;
-   justify-self: center;
-   align-self: end;
-}
-
-#search {
-   grid-area: search;
-   height: 30px;
-   align-self: center;
-}
-
-#flexbox {
-   display: flexbox;
-   grid-area: flexbox;
-   justify-self: center;
-   align-self: center;
-}
-
-#google-search-btn {
-   padding: 10px 15px 10px 15px;
-   margin: 5px;
-   color: 707070;
-   background-color: #F5F5F5;
-   border: 1px solid #F5F5F5;
+   grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+   grid-template-rows: 50px;
+   grid-template-areas: "about store . gmail images menu sign-in";
+   margin: 0 8px;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: black;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 13px;
-   border-radius: 14px;
-}
-#google-search-btn:hover {
-   background-color: 	hsl(0, 100%, 95%);
-}
-#dumb-search {
-   padding: 10px 15px 10px 15px;
-   margin: 5px;
-   color: 707070;
-   background-color: #F5F5F5;
-   border: 1px solid #F5F5F5;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 13px;
-   border-radius: 14px;
-}
-
-#dumb-search:hover {
-   background-color: 	hsl(0, 100%, 95%);
-}
-
-#google-text {
-   grid-area: google-text;
+ }
+ 
+ #about {
+   grid-area: about;
    justify-self: center;
+   align-self: center;
+ }  
+ #store {
+   grid-area: store;
+   justify-self: center;
+   align-self: center;
+   }
+ #gmail {
+   grid-area: gmail;
+   justify-self: center;
+   align-self: center;
+   }
+ #images {
+   grid-area: images;
+   justify-self: center;
+   align-self: center;
+   }
+ #menu {
+   grid-area: menu;
+   justify-self: center;
+   align-self: center;
+   margin-right: 16px;
+   }
+ #sign-in {
+    grid-area: sign-in;
+    justify-self: center;
+    align-self: center;
+    background-color: #4683ea;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    line-height: 27px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+   }
    
-}
-
-/* Footer section */
-#footer {
-   display: grid;
-   position: static;
-   padding: 0;
-   padding-bottom: 0;
-   background-color: 	hsl(0, 100%, 95%);
-   left: 10;
-   bottom: 10;
-   width: 100%;
-   grid-template-columns: 100px 100px 1fr 100px 100px;
-   grid-template-areas: "advertising business searchfaq . privacy terms settings";
-}
+ /* Center of Page */
+ 
+ #searchsec {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 70px 70px 250px;
+    grid-template-areas: ". logo . " ". search ." ". flexbox ." ". google-text .";
+ }
+ 
+ 
+ #logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: end;
+ }
+ 
+ #searchicon {
+     background: url(//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+     height: 24px;
+     width: 24px;
+     background-size: 24px;
+     vertical-align: middle;
+     line-height: 44px;
+     font-size: small;
+     color: #222;
+ }
+ 
+ #search {
+    grid-area: search;
+    height: 30px;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    padding: 5px 8px 0 16px;
+    padding-left: 92px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 33px;
+    box-shadow: 1px 1px 5px grey;
+ }
+ 
+ input[type=text] {
+    background-image: url('https://www.w3schools.com/howto/searchicon.png'), url('http://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-position: 8px 8px, 450px;
+    background-size: 17px, 21px;
+    background-repeat: no-repeat, no-repeat;
+ }
+ 
+ #search:hover {
+    background-color: white;
+    border: grey;
+ }
+ 
+ #flexbox {
+    display: flexbox;
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center;
+ }
+ 
+ #google-search-btn {
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    color: 707070;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-radius: 14px;
+ }
+ #google-search-btn:hover {
+    background-color: 	hsl(0, 100%, 95%);
+    border: 1px solid rgba(0, 0, 0, 0.226);
+ }
+ #dumb-search {
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    color: 707070;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-radius: 14px;
+ }
+ 
+ #dumb-search:hover {
+    background-color: 	hsl(0, 100%, 95%);
+    border: 1px solid rgba(0, 0, 0, 0.226);
+ }
+ 
+ #google-text {
+    grid-area: google-text;
+    justify-self: center;
+    
+ }
+ #google-text:visited {
+    color: pink;
+ }
+ 
+ /* Footer section */
+ 
+ #footer {
+    display: grid;
+    position: fixed;
+    padding: 10px 0 5px 0;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 0;
+    background-color: 	hsl(0, 100%, 95%);
+    margin-left: 0px;
+    bottom: 10;
+    line-height: 40px;
+    min-width: 100%;
+    grid-template-columns: 100px 100px 1fr 100px 100px;
+    grid-template-areas: "advertising business searchfaq . privacy terms settings";
+    margin: 15 0px;
+ }
